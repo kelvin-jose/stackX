@@ -2,7 +2,7 @@ from exceptions import StackOverflow
 from exceptions import StackUnderflow
 
 
-class Stack:
+class stack:
     def __init__(self, max_size=8, reset_on_full=False):
         self.max_size = max_size
         self.stack = [None] * self.max_size
