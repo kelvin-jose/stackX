@@ -1,24 +1,24 @@
-## stack-X
-###### X for extended
+## stackX
+###### X for Extended
 > A light-weight stack from the data structures which is primarily used to store a collection of objects. Individual items can be added and stored in a stack using a push operation. Objects can be retrieved using a pop operation, which removes an item from the stack.
 
 ### Usage
 
 ##### Install the packge using,
 ```python
-pip install stack
+pip install stackx
 ```
 
 
 ##### Import it to your application by,
 ```python
-from lite-stack import Stack
+from stackx import stack
 ```
 
 
 ##### Check whether stack is working or not by pinging it.
 ```python
-Stack.ping()
+stack.ping()
 ```
 ```python
 'pong!'
@@ -26,7 +26,7 @@ Stack.ping()
 
 ##### Create your stack
 ```python
-stack = Stack(max_size=5, reset_on_full=True)
+stack = stack(max_size=5, reset_on_full=True)
 ```
 
 ##### Push
